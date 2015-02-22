@@ -1,0 +1,7 @@
+{
+  "name": "facebook-comments#gh-pages",
+  "private": true,
+  "dependencies": {
+    "facebook-comments": "kunalnagar/facebook-comments#master"
+  }
+}

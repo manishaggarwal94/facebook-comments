@@ -1,0 +1,37 @@
+{
+  "name": "facebook-comments",
+  "authors": [
+    "Kunal Nagar <knlnagar@gmail.com>"
+  ],
+  "description": "A Polymer Component for displaying Facebook comments.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "facebook",
+    "comments"
+  ],
+  "main": "facebook-comments.html",
+  "license": "MIT",
+  "homepage": "https://github.com/kunalnagar/facebook-comments/",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.4.2"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^0.7.3"
+  },
+  "_release": "3871afac0c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3871afac0caf96b0a9d1297cadff44c896db35f1"
+  },
+  "_source": "git://github.com/kunalnagar/facebook-comments.git",
+  "_target": "master",
+  "_originalSource": "kunalnagar/facebook-comments",
+  "_direct": true
+}
