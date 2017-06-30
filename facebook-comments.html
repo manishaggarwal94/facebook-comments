@@ -20,7 +20,7 @@ A Polymer Component for displaying Facebook comments.
 @blurb A Polymer Component for displaying Facebook comments.
 @homepage http://kunalnagar.github.io/facebook-comments
 -->
-<polymer-element name="facebook-comments" attributes="type appid colorscheme pageurl mobile numposts orderby width">
+<dom-module id="facebook-comments" attributes="type appid colorscheme pageurl mobile numposts orderby width">
 	<template>
 		<div id="fbcommentshtml5">
 			<!-- HTML5 -->
@@ -59,6 +59,7 @@ A Polymer Component for displaying Facebook comments.
 	</template>
 	<script>
 	Polymer({
+		is:'facebook-comments',
 		/**
 		 * Type of Facebook Comments
 		 *
@@ -187,4 +188,4 @@ A Polymer Component for displaying Facebook comments.
 		}
 	});
 	</script>
-</polymer-element>
+</dom-module>
